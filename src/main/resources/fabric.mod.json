@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sun-drain",
+  "version": "1.0.0",
+  "name": "Sun Drain",
+  "description": "A sun draining bar that fills when exposed to sunlight",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.sundrain.SunDrainMod"],
+    "client": ["com.orca.sundrain.SunDrainClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
